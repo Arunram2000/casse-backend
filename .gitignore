@@ -1,0 +1,62 @@
+node_modules
+# Keep environment variables out of version control
+.env
+.env.production
+.env.development
+
+# Firebase service account files
+src/config/service-account.json
+service-account.json
+firebase-service-account.json
+backups
+.db
+logs.txt
+backup/store
+store
+app.log
+
+build
+dist
+
+#Hardhat files
+coverage
+coverage.json
+typechain
+typechain-types
+
+cache
+artifacts
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore everything inside the avatars directory
+songs/*
+albums/*
+artists/*
+images/*
+
+# But don't ignore demo.txt
+!avatars/demo.txt
